@@ -79,3 +79,5 @@ Consider the closed-loop system shown below:
 2. Identify the region in the z-plane where $\zeta \geq 0.5$ and $\omega_n \leq \omega_s/30$.
 
 
+## PDF Report
+For detailed information, please refer to the [Report](./Report.pdf).
