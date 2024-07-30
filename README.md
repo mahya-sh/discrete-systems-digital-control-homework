@@ -50,24 +50,32 @@ $G(s) = \frac{2}{s(s+2)}$
 
 1. Discretize this system for different sampling periods [0.1, 0.2, 0.5, 1, 1.5, 2] and plot the step response using MATLAB.
 2. Report the 98% settling time and overshoot for each case and compare the trends.
+![image](https://github.com/user-attachments/assets/7284c489-2b3c-4f43-be6d-9e79453ac694)
+
 
 ### Question 5
 
 For each of the given block diagrams, calculate the steady-state error constants (step, ramp, and parabolic) for $T = 0.1$ seconds.
+![image](https://github.com/user-attachments/assets/1fbbb483-074e-4876-b0e4-84611ba54e66)
 
 1. $G_1(s) = \frac{5}{s(s+3)}, \quad G_2(s) = \frac{1}{s}, \quad H(s) = 2 $
 2. For the following system, calculate the error constants for step, ramp, and parabolic inputs in both continuous and discrete cases for sampling periods [0.1, 0.5]:
    $G(s) = \frac{10}{s(s+1)} $
+![image](https://github.com/user-attachments/assets/7f3f8e82-17be-40b4-b025-d367acb131ec)
 
 ### Question 6
 
 Consider the closed-loop system shown below where $G(s) = \frac{K}{s(0.5s+1)}$:
+![image](https://github.com/user-attachments/assets/099ccc0c-48e4-497d-89e6-dfff96f18448)
 
 1. Determine the gain $K$ and sampling period $T$ such that the system has a maximum overshoot of 30% and the steady-state error to a ramp input is less than 1.
 
 ### Question 7
 
 Consider the closed-loop system shown below:
+![image](https://github.com/user-attachments/assets/5f17847e-1144-454c-9af4-18ca7035bcdb)
 
 1. If $G(s) = \frac{1}{s(s+1)}$, calculate the overshoot and settling time for $T = 0.5$ seconds and $T = 1$ second. Plot the output response and compare the results.
 2. Identify the region in the z-plane where $\zeta \geq 0.5$ and $\omega_n \leq \omega_s/30$.
+
+
